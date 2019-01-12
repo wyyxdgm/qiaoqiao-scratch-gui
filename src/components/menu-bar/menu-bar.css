@@ -45,6 +45,10 @@
     vertical-align: middle;
 }
 
+.hidden {
+    display: none !important;
+}
+
 .qiaoqiao-brand {
 }
 
