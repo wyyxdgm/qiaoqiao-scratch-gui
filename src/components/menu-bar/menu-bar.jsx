@@ -293,18 +293,13 @@ class MenuBar extends React.Component {
                 <div className={styles.mainMenu}>
                     <div className={styles.fileGroup}>
                         <div className={classNames(styles.menuBarItem)}>
-                            <a
-                                href="https://scratch.mit.edu"
-                                rel="noopener noreferrer"
-                                target="_blank"
-                            >
-                                <img
-                                    alt="Scratch"
-                                    className={styles.scratchLogo}
-                                    draggable={false}
-                                    src={scratchLogo}
+                            <div className={classNames(styles.qiaoqiaoBrand)}>
+                                <FormattedMessage
+                                    defaultMessage="敲敲编程"
+                                    description="敲敲编程"
+                                    id="gui.menuBar.qiaoqiaoBrand"
                                 />
-                            </a>
+                            </div>
                         </div>
                         <div
                             className={classNames(styles.menuBarItem, styles.hoverable, styles.languageMenu)}
